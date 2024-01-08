@@ -1,1 +1,7 @@
 remote_theme: pages-themes/time-machine
+
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about
