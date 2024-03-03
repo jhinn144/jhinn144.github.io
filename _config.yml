@@ -1,7 +1,14 @@
-remote_theme: pages-themes/time-machine
+title: Jhinn Personal Blog
+description: A personal blog by Jhinn
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+remote_theme: pages-themes/minimal@v0.2.0
 
-navigation:
-  - text: Home
-    url: /
-  - text: About
-    url: /about
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-remote-theme
+
+permalink: /posts/:year/:month/:day/:title
+kramdown:
+  auto_ids: true

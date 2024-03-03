@@ -1,11 +1,7 @@
-# Welcome to My Page
+---
+layout: default
+---
 
-Hello, my name is [Your Name]. I'm a software developer.
-
-## About Me
-
-[Some information about you]
-
-## My Projects
-
-[Information about your projects]
+<!-- Your existing HTML content starts here -->
+- Hello, world!
+- Welcome to my website.
